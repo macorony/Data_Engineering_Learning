@@ -1,4 +1,5 @@
-# Day 1
+# Day 1 Basic Concepts
+
 **What is SQL?**
 * SQL stands for structured query language.
 * SQL let you acess and manipulate database
@@ -25,4 +26,17 @@
 * Schemas may be assigned security permissions, making them an effective method for distinguishing and defending database based on user access priviledge.
 
 **Basic commands**
-* 
+* Create a table
+    CREATE TABLE emp
+       (EMPNO integer NOT NULL,
+        ENAME VARCHAR(10),
+        JOB VARCHAR(9),
+        MGR integer,
+        HIREDATE DATE,
+        SAL integer,
+        COMM integer,
+        DEPTNO integer
+        );
+
+* Insert a table
+    INSERT INTO EMP VALUES (7369, 'SMITH', 'CLERK', 7902, '1980-12-17', 800, NULL, 20);
