@@ -28,16 +28,17 @@
 
 # Day 2 Basic commands
 Create a table
-    CREATE TABLE emp
-       (EMPNO integer NOT NULL,
-        ENAME VARCHAR(10),
-        JOB VARCHAR(9),
-        MGR integer,
-        HIREDATE DATE,
-        SAL integer,
-        COMM integer,
-        DEPTNO integer
-        );
+```
+CREATE TABLE emp
+(EMPNO integer NOT NULL,
+ENAME VARCHAR(10),
+JOB VARCHAR(9),
+MGR integer,
+HIREDATE DATE,
+SAL integer,
+COMM integer,
+DEPTNO integer);
+```
 
 Insert a table
     INSERT INTO EMP VALUES (7369, 'SMITH', 'CLERK', 7902, '1980-12-17', 800, NULL, 20);
