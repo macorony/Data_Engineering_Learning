@@ -25,9 +25,9 @@
 * A schemas records logical structures of data in a separate objects.
 * Schemas may be assigned security permissions, making them an effective method for distinguishing and defending database based on user access priviledge.
 
-**Basic commands**
-* Create a table
 
+# Day 2 Basic commands
+Create a table
     CREATE TABLE emp
        (EMPNO integer NOT NULL,
         ENAME VARCHAR(10),
@@ -39,6 +39,5 @@
         DEPTNO integer
         );
 
-* Insert a table
-
+Insert a table
     INSERT INTO EMP VALUES (7369, 'SMITH', 'CLERK', 7902, '1980-12-17', 800, NULL, 20);
